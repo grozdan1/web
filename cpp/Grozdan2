@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <assert.h>
+#include <stdlib.h>
+#include <iostream>
+
+
+
+
+
+
+int main()
+{
+ 
+ int x, p;
+ x = rand() % 100 +1; 
+ for ( x=1;x<=5;x++);
+  do{
+ printf("p (1 to 100):");
+ scanf ("%d",&p);
+ if (x<p) puts ("÷èñëî");
+ else if (x>p) puts ("÷èñëî");
+ }
+while (x=p);
+return 0;
+ }
+
